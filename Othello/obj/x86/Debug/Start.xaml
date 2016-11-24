@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Othello.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Othello"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FFC22020" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:ConnectionId='1' x:Name="button1" Content="Help" HorizontalAlignment="Left" Margin="160,457,0,0" VerticalAlignment="Top"                      Width="120" Foreground="#FFEBE2E2" FontSize="20"/>
+        <Button x:ConnectionId='2' x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="160,554,0,0" VerticalAlignment="Top"                        Width="120" Foreground="#FFF7EBEB" FontSize="20"/>
+        <RadioButton x:ConnectionId='3' x:Name="radioButton" Content="vs Human" HorizontalAlignment="Left" Margin="160,211,0,0" VerticalAlignment="Top"                                 Foreground="#FFF4F3F3" FontSize="20"/>
+        <RadioButton x:ConnectionId='4' x:Name="radioButton1" Content="vs Computer" HorizontalAlignment="Left" Margin="160,309,0,0" VerticalAlignment="Top"                                Foreground="#FFF3EEEE" FontSize="20"/>
+        <TextBlock x:ConnectionId='5' x:Name="textBlock" HorizontalAlignment="Left" Height="110" Margin="160,45,0,0" TextWrapping="Wrap" Text="Disc O" VerticalAlignment="Top" Width="190" FontSize="46.667" FontWeight="Bold"                                               Foreground="#FFFAF6F6"/>
+
+    </Grid>
+</Page>
+

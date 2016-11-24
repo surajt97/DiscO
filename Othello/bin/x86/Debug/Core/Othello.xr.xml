@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="BorderBrush" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
+      <RootProperty Name="EndPoint" />
+      <RootProperty Name="StartPoint" />
+      <RootProperty Name="GradientStops" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
+      <RootProperty Name="Color" />
+      <RootProperty Name="Offset" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootEvent Name="Click" />
+      <RootEvent Name="PointerPressed" />
+      <RootEvent Name="PointerReleased" />
+    </RootType>
+    <RootType FullName="Othello.BlankPage1" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="FontStyle" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Checked" />
+    </RootType>
+    <RootType FullName="Othello.BlankPage2" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Othello.MainPage4" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootEvent Name="Checked" />
+    </RootType>
+    <RootType FullName="Othello.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontStyle" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
+    <RootType FullName="Othello.MainPage1" />
+    <RootType FullName="Othello.MainGame2" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="ImageSource" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="Rotation" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Othello.MainPage3" />
+    <RootType FullName="Othello.MainPage2" />
+  </Roots.RootTypes>
+</Roots>
