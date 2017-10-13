@@ -1,3 +1,3 @@
 ## DiscO game
-A two player board game developed in Visual Studio.
+A two player advanced board game.
 
