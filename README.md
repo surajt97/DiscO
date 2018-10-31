@@ -1,3 +1,3 @@
 ## DiscO game
-A two player advanced board game.
+A two player board game based on Othello.
 
